@@ -1,0 +1,38 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Pack \"micropython.hex\"",
+        "command": "microbit-micropython:pack"
+      },
+      {
+        "label": "Flash \"micropython.hex\"",
+        "command": "microbit-micropython:flash"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "microbit-micropython",
+          "submenu": [
+            {
+              "label": "Pack \"micropython.hex\"",
+              "command": "microbit-micropython:pack"
+            },
+            {
+              "label": "Flash \"micropython.hex\"",
+              "command": "microbit-micropython:flash"
+            },
+            {
+              "label": "Micropython REPL",
+              "command": "microbit-micropython:repl"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

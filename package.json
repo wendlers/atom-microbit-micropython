@@ -1,0 +1,27 @@
+{
+  "name": "microbit-micropython",
+  "main": "./lib/main",
+  "version": "0.0.1",
+  "description": "Microbit Micropython support for Atom",
+  "keywords": [
+  ],
+  "repository": "https://github.com/atom/microbit",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0 || ^1": "consumeToolBar"
+      }
+    },
+    "runInTerminal": {
+      "versions": {
+        "^0.14.5": "consumeRunInTerminal"
+      }
+    }
+  }
+}
