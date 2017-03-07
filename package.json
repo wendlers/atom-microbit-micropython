@@ -1,11 +1,11 @@
 {
   "name": "microbit-micropython",
   "main": "./lib/main",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Microbit Micropython support for Atom",
   "keywords": [
   ],
-  "repository": "https://github.com/atom/microbit",
+  "repository": "https://github.com/wendlers/atom-microbit-micropython",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
