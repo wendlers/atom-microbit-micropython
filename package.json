@@ -11,7 +11,12 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "atom-package-deps": "^4.0.1"
   },
+  "package-deps": [
+    "termination",
+    "tool-bar"
+  ],
   "consumedServices": {
     "tool-bar": {
       "versions": {
