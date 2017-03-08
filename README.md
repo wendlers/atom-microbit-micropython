@@ -74,4 +74,4 @@ __Note__: this package will install `termination` and `tool-bar` packages as dep
 ### Trouble Shooting
 
 * Flash target was not found: auto-detection of `uflash` is not working in all cases. Try specifying the path to your Microbit drive in the settings.
-* REPL not connecting: Maybe your port is not '/dev/ttyACM0'. Try specifying the correct port in the settings.
+* REPL not connecting: Maybe your port is not `/dev/ttyACM0`. Try specifying the correct port in the settings.
