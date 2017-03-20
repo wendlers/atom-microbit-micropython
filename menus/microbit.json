@@ -8,7 +8,12 @@
       {
         "label": "Flash \"micropython.hex\"",
         "command": "microbit-micropython:flash"
+      },
+      {
+        "label": "Execute selected text",
+        "command": "microbit-micropython:execute-selected"
       }
+
     ]
   },
   "menu": [
@@ -27,8 +32,12 @@
               "command": "microbit-micropython:flash"
             },
             {
-              "label": "Micropython REPL",
-              "command": "microbit-micropython:repl"
+              "label": "Micropython enter REPL",
+              "command": "microbit-micropython:enter-repl"
+            },
+            {
+              "label": "Micropython exit REPL",
+              "command": "microbit-micropython:exit-repl"
             }
           ]
         }

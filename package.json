@@ -10,7 +10,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "atom-package-deps": "^4.0.1"
+    "atom-package-deps": "^4.0.1",
+    "serialport": "^4.0.7"
   },
   "package-deps": [
     "termination",
@@ -20,6 +21,11 @@
     "tool-bar": {
       "versions": {
         "^0 || ^1": "consumeToolBar"
+      }
+    },
+    "console-panel": {
+      "versions": {
+        "^1.0.0": "consumeConsolePanel"
       }
     },
     "runInTerminal": {
