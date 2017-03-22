@@ -2,15 +2,15 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Pack \"micropython.hex\"",
+        "label": "microbit: pack",
         "command": "microbit-micropython:pack"
       },
       {
-        "label": "Flash \"micropython.hex\"",
+        "label": "microbit: flash",
         "command": "microbit-micropython:flash"
       },
       {
-        "label": "Execute selected text",
+        "label": "microbit: execute selected",
         "command": "microbit-micropython:execute-selected"
       }
 

@@ -15,6 +15,7 @@
   },
   "package-deps": [
     "termination",
+    "console-panel",
     "tool-bar"
   ],
   "consumedServices": {
