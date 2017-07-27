@@ -60,9 +60,22 @@ To install this package from the package repository:
 
 Or install from git:
 
-    cd $HOME/.atom/packages
-    git clone https://github.com/wendlers/atom-microbit-micropython microbit-micropython
+    cd $HOME/$MY_GIT_REPOS
+    git clone https://github.com/wendlers/atom-microbit-micropython
 
+Change into the newly cloned directory and link the package into your atom install:
+
+    cd atom-microbit-micropython
+    apm link
+
+Next, install required node packages:
+
+    apm install
+
+Now, when you start your atom next time, you will be asked to also install the
+atom dependencies.
+
+atom
 __Note__: this package will ask to install `termination`, `console-panel` and
 `tool-bar` packages as dependencies.
 
