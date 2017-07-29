@@ -1,7 +1,9 @@
-# microbit-micropython package
+# microbit-micropython package (Linux)
 
 Atom package to support [micropython](https://microbit-micropython.readthedocs.io/en/latest/)
 development on the [mircobit](http://microbit.org/).
+
+__!!! Please note, that this package only supports Linux (and most likely Mac) !!!__
 
 The package offers the following features:
 
@@ -23,6 +25,12 @@ file and for flashing the firmware to the Microbit, the
 via `pip`:
 
     sudo pip install uflash
+
+As an alternative for using uflash, pyOCD (and DAP-link) could be used. Thus,
+it is recommanded to install [pyOCD](https://github.com/mbedmicro/pyOCD)
+too via `pip` (note, it needs Python 2.7):
+
+    sudo pip2 install pyOCD
 
 For the serial terminal to the REPL, you have the choice between `screen`,
 `miniterm.py` and `microrepl.py`. On Linux `screen` would be the best choice

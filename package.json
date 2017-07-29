@@ -16,7 +16,8 @@
   "package-deps": [
     "termination",
     "console-panel",
-    "tool-bar"
+    "tool-bar",
+    "busy"
   ],
   "consumedServices": {
     "tool-bar": {
@@ -32,6 +33,11 @@
     "runInTerminal": {
       "versions": {
         "^0.14.5": "consumeRunInTerminal"
+      }
+    },
+    "busy": {
+      "versions": {
+        "^1.0.0": "consumeBusy"
       }
     }
   }
