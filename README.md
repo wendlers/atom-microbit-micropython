@@ -80,10 +80,8 @@ Next, install required node packages:
 
     apm install
 
-Now, when you start your atom next time, you will be asked to also install the
-atom dependencies.
+Now, when you start your atom next time, you will be asked to also install the atom dependencies.
 
-atom
 __Note__: this package will ask to install `termination`, `console-panel` and
 `tool-bar` packages as dependencies.
 
